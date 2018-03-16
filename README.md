@@ -2,22 +2,24 @@
 
 Premirere journée de formation Git.
 
-
-
 ## Aide pour l'utilisation de GIT.
 
+	1. Aller sur le site de GitHub.
+	(github.com)
 
+	2. Créer un compte ou se connecter.
 
-1. Aller sur le site de GitHub.
-(github.com)
+	3. Créer un nouveau répertoire (new repository).
+	ATTENTION : Ne pas cocher la case qui propose de créer le fichier README.md !
 
-2. Créer un compte ou se connecter.
+### Prérequis
 
-3. Créer un nouveau répertoire (new repository).
+	Installer l'outil GIT disponible en téléchargement :
+	https://git-scm.com/download/win
 
-
-Créer un nouveau répertoire en ligne de commande.
+### Créer un nouveau répertoire en ligne de commande.
 --------------------------------------------------------------------
+	
 	1. Créer un répertoire qui va contenir un projet.
 	(mkdir "MonProjet")
 
@@ -61,5 +63,15 @@ Lorsque l'on a modifié en local un projet (fichiers/répertoires modifiés ou c
 	
 	Cette action sera réalisée à la fin de chaque journée, une fois que les tests n'auraont pas mis en échec l'application (par example).
 
-Récupérer un répertoire déja existant sur GitHub
-	1. 
+### Récupérer un répertoire déja existant sur GitHub (ne sera pas lié à votre compte GitHub)
+
+	1. Se passer dans le répertoire des téléchargements.
+	(cd "C:\Users\%USERNAME%\Downloads")
+	
+	2. Clonner le projet (= télécharger le projet)
+	(git clone URL_DU_PROJET_COMMANCANT_PAR_HTTPS_ET_FINISSANT_PAR_.git)
+
+### Récupérer un répertoire existant sur son propre compte GitHub
+	
+	1. Connecter la base de ficier locale à la base de fichier distante.
+	
