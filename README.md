@@ -30,17 +30,36 @@ Créer un nouveau répertoire en ligne de commande.
 	4. Initialiser le Git local, la base de fichiers.
 	(git init)
 
-	5. Mettre à jour la révision (modification réalisé en le moment T0 et T1)
+	5. Mettre à jour la révision (modification réalisé en le moment T0 et T1).
 	(git add README.md OU git add .)
 
-	6. Ajouter la révision dans la base de fichier. (Valider l'ajout des révisions.)
+	6. Ajouter la révision dans la base de fichier. (Valider l'ajout des révisions.).
 	(git commit -a -m "Ceci est un commentaire et il est obligatoire de le mettre 
 	lorsqu'un COMMIT est réalisé. Il permet de decrire les modifications que 
 	comporte la révision.")
 
-	7. On connecte notre Git local (la base de fichier locale) au site de GitHub (la base de fichier distante).
+	7. Connecter le Git local (la base de fichier locale) au site de GitHub (la base de fichier distante).
 	(git remote add origin https://github.com/VotreNomUtilisateurGitHub/MonProjet.git)
 
-	8. On upload (on pousse) le contenu de la base de fichier local sur la base de fichiers distant (Local -> Distant).
+	8. Uploader (pousser) le contenu de la base de fichier local sur la base de fichiers distant (Local -> Distant).
 	(git push -u origin master)
+	
+Lorsque l'on a modifié en local un projet (fichiers/répertoires modifiés ou créés), que ce projet est connecté au git distant (git init, git remote add origin URL), il faut réaliser les étapes suivantes :
+--------------------------------------------------------------------
+	1. Mettre à jour la révision.
+	(git add .)
+	
+	2. Valider l'ajout des révisions en les ajoutant dans la base de fichier local.
+	(git commit -a -m "Décrire rapidement les modification approtées.")
 
+
+	Cette suite d'action sera répétée tout au long de la journée, à chaque fois que des fichier modifiés auront été enregistré (par example).
+
+
+	3. Pousser les modification de la base locale vers la base distante.
+	(git push -u origin master)
+	
+	Cette action sera réalisée à la fin de chaque journée, une fois que les tests n'auraont pas mis en échec l'application (par example).
+
+Récupérer un répertoire déja existant sur GitHub
+	1. 
